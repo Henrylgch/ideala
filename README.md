@@ -1,0 +1,3 @@
+"# ideala" 
+"# ideala" 
+"# ideala" 
