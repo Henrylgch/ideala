@@ -1,0 +1,34 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+/* este es el estilo para el navbar */
+.navtop ul {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+  list-style-type: none;
+  float: right;
+}
+
+img.logo {
+  width: 140px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.navtop li {
+  display: inline;
+}
+
+li a {
+  padding: 8px;
+  text-decoration: none;
+  color: #37474F;
+}
+/* aqui termina el navbar */
+
+/*Caja central del homepage */
+
+div.central-box {
+  top: 209px;
+}
