@@ -1,6 +1,12 @@
-* {
+body {
   font-family: 'Roboto', sans-serif;
 }
+
+/*fondo del main */
+#fondo {
+
+}
+
 /* este es el estilo para el navbar */
 .navtop ul {
   font-size: 20px;
