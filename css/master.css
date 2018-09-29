@@ -1,3 +1,51 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: 'Ubuntu', sans-serif;
+  color: #37474F;
+  word-spacing: 1.2px;
+  font-size: 40px;
+  margin: 20px 520px 20px 20px;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.header a{
+  text-decoration: none;
+}
+
+.hero {
+  height: 500px;
+  background-image: url('../images/fondo.png');
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  background-position: top;
+}
+
+.hero-strong {
+  color: #16A085;
+}
+
+.video {
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.video-details {
+  width: 500px;
+  margin: 10px 20px;
+}
+
+.video-embeb {
+  width: 500px;
+}
+
+.book-details {
+  width: 500px;
 }
