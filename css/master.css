@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0px;
 }
 
 h1 {
@@ -20,10 +21,10 @@ h1 {
 }
 
 .hero {
-  height: 500px;
-  background-image: url('../images/fondo.png');
+  height: 420px;
+  background: url('../images/fondo.png');
   background-repeat: no-repeat;
-  background-size: 100% 70%;
+  background-size: 100%;
   background-position: top;
 }
 
@@ -34,18 +35,33 @@ h1 {
 .video {
   border: 1px solid grey;
   border-radius: 10px;
+  margin: 10px;
   margin-bottom: 15px;
+  padding: 20px;
+  box-sizing: 500px;
 }
 
 .video-details {
   width: 500px;
   margin: 10px 20px;
+  display: inline-block;
 }
 
 .video-embeb {
   width: 500px;
+  height: 300px;
 }
 
 .book-details {
   width: 500px;
+}
+
+.flexbox {
+
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
 }
