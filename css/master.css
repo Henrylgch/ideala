@@ -23,6 +23,7 @@ h2 {
   text-transform: uppercase;
   font-size: 20px;
   color: #37474F;
+  margin: 15px 0px;
 }
 
 .logo {
@@ -56,7 +57,7 @@ h2 {
 }
 
 .header a:hover {
-  color: #f06292;
+  color: #16A085;
 }
 
 .hero {
@@ -76,8 +77,8 @@ h2 {
   color: #16A085;
 }
 
-.section-videos {
-  padding: 0px 15px;
+.videos {
+  padding: 15px;
 }
 
 .video {
@@ -86,7 +87,6 @@ h2 {
   margin-bottom: 15px;
   padding: 20px;
   display: flex;
-  flex-direction: column;
   width: 400px;
   background: #fafafa;
 }
@@ -103,11 +103,14 @@ h2 {
 }
 
 .video-author, .video-date, .video-font {
-  margin: 5px;
+  margin: 0px;
 }
 
 .video-embeb {
   margin-top: 15px;
+  width: 350px;
+  height: 260px;
+  vertical-align: bottom;
 }
 
 .books {
@@ -122,13 +125,20 @@ h2 {
 .book {
   border: 1px solid grey;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   width: 550px;
   background: #fafafa;
   box-sizing: border-box;
 }
 
+.book-title, .book-author {
+  margin: 0px;
+}
+
+.book-description {
+  text-align: left;
+}
 
 /* Footer */
 .footer {
@@ -140,4 +150,9 @@ h2 {
 
 .footer img {
   vertical-align: middle;
+}
+
+.footer a {
+  text-decoration: none;
+  color: grey;
 }
