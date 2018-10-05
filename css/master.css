@@ -26,6 +26,13 @@ h2 {
   margin: 15px 0px;
 }
 
+.container {
+  width: 1200px;
+  display: inherit;
+  margin: 0px auto;
+  justify-content: space-between;
+}
+
 .logo {
   max-width: 200px;
 }

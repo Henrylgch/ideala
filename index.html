@@ -13,17 +13,19 @@
   </head>
   <body>
     <header class="header">
-      <figure class="logo">
-        <a href="index.html"><img src="images/ideala_logo.png" class="logo" alt="logo_princ"></a>
-      </figure>
 
-      <ul>
-        <li> <a href="#section-videos">Videos</a> </li>
-        <li> <a href="#">Libros</a> </li>
-        <li> <a href="#">Aliados</a> </li>
-        <li> <a href="#">Trabajemos</a> </li>
-        <li> <a href="#">Blog</a> </li>
-      </ul>
+        <figure class="logo">
+          <a href="index.html"><img src="images/ideala_logo.png" class="logo" alt="logo_princ"></a>
+        </figure>
+
+        <ul>
+          <li> <a href="#section-videos">Videos</a> </li>
+          <li> <a href="#">Libros</a> </li>
+          <li> <a href="#">Aliados</a> </li>
+          <li> <a href="#">Trabajemos</a> </li>
+          <li> <a href="#">Blog</a> </li>
+        </ul>
+
     </header>
 
     <section class="hero">
@@ -31,37 +33,41 @@
     </section>
 
     <section class="videos" id="section-videos">
-      <h2>Videos que recomendamos</h2>
-      <div class="books-flex">
-        <article class="video">
+      <div class="container">
+        <h2>Videos que recomendamos</h2>
+      </div>
+        <div class="books-flex container">
+          <article class="video">
+            <div class="video-details">
+              <h3 class="video-title">Titulo: Multiply your time </h3>
+              <p class="video-author">Autor: TED xTalks</p>
+              <p class="video-date">Fecha de publicacion: 1 de Junio del 2015</p>
+              <p class="video-font">Puedes verlo en <a href="https://www.youtube.com/embed/y2X7c9TUQJ8">YouTube</a> </p>
+
+              <iframe class="video-embeb" width="350px" height="260px"  src="https://www.youtube.com/embed/y2X7c9TUQJ8"   frameborder="0" allow="autoplay; encrypted-media"   allowfullscreen></iframe>
+            </div>
+          </article>
+
+          <article class="video">
           <div class="video-details">
-            <h3 class="video-title">Titulo: Multiply your time </h3>
-            <p class="video-author">Autor: TED xTalks</p>
-            <p class="video-date">Fecha de publicacion: 1 de Junio del 2015</p>
+            <h3 class="video-title">Titulo: Programming your mind for success </h3>
+            <p class="video-author">Autor: TED xManchester</p>
+            <p class="video-date">Fecha de publicacion: 20 de Junio del 2014</p>
             <p class="video-font">Puedes verlo en <a href="https://www.youtube.com/embed/y2X7c9TUQJ8">YouTube</a> </p>
 
-            <iframe class="video-embeb" width="350px" height="260px"  src="https://www.youtube.com/embed/y2X7c9TUQJ8"   frameborder="0" allow="autoplay; encrypted-media"   allowfullscreen></iframe>
-          </div>
-        </article>
-
-        <article class="video">
-        <div class="video-details">
-          <h3 class="video-title">Titulo: Programming your mind for success </h3>
-          <p class="video-author">Autor: TED xManchester</p>
-          <p class="video-date">Fecha de publicacion: 20 de Junio del 2014</p>
-          <p class="video-font">Puedes verlo en <a href="https://www.youtube.com/embed/y2X7c9TUQJ8">YouTube</a> </p>
-
-          <iframe class="video-embeb" src="https://www.youtube.com/embed/MmfikLimeQ8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-      </div>
+            <iframe class="video-embeb" src="https://www.youtube.com/embed/MmfikLimeQ8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        </div>
       </article>
 
 
     </section>
 
     <section class="books">
-      <h2>Libros que todo emprendedor debe leer</h2>
-      <div class="books-flex">
+      <div class="container">
+        <h2>Libros que todo emprendedor debe leer</h2>
+      <div>
+      <div class="books-flex container">
         <article class="book">
           <figure class="book-cover">
             <img src="images/leanStartup_cover.jpg" width="170px" height="260px" alt="">
@@ -87,19 +93,21 @@
     </section>
 
     <section class="contact">
-      <div class="contact-form">
-        <h2>Trabajemos juntos</h2>
-        <form action="index.html" method="post">
-          <input type="email" placeholder="Dejanos tu email" id="contact-email" class="contact-email" name="" value="">
-          <button type="button" class="contact-button" name="button">Enviar</button>
-        </form>
-      </div>
+      <div class="container">  
+        <div class="contact-form">
+          <h2>Trabajemos juntos</h2>
+          <form action="index.html" method="post">
+            <input type="email" placeholder="Dejanos tu email" id="contact-email" class="contact-email" name="" value="">
+            <button type="button" class="contact-button" name="button">Enviar</button>
+          </form>
+        </div>
 
-      <div class="social">
-        <a href="https://twitter.com/Henrylgch_" class="social-link social-twitter"></a>
-        <a href="https://instagram.com/Henrylgch" class="social-link social-instagram"></a>
-        <a href="https://github.com/Henrylgch" class="social-link social-github"></a>
-        <a href="https://facebook.com/Henrylgch" class="social-link social-facebook"></a>
+        <div class="social">
+          <a href="https://twitter.com/Henrylgch_" class="social-link social-twitter"></a>
+          <a href="https://instagram.com/Henrylgch" class="social-link social-instagram"></a>
+          <a href="https://github.com/Henrylgch" class="social-link social-github"></a>
+          <a href="https://facebook.com/Henrylgch" class="social-link social-facebook"></a>
+        </div>
       </div>
     </section>
 
