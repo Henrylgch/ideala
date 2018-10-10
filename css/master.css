@@ -27,10 +27,15 @@ h2 {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   display: inherit;
+  flex-wrap: wrap;
   margin: 0px auto;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.container-title {
+  display: block;
 }
 
 .logo {
@@ -41,6 +46,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   height: 90px;
+  flex-wrap: wrap;
 }
 
 .header ul {
@@ -67,11 +73,15 @@ h2 {
   color: #16A085;
 }
 
+.containter-hero {
+  max-width: 1200px;
+}
+
 .hero {
   height: 420px;
   background: url('../images/fondo.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-image: 100%;
   background-position: top;
   display: flex;
 }
@@ -86,6 +96,8 @@ h2 {
 
 .videos {
   padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .video {
@@ -94,7 +106,7 @@ h2 {
   margin-bottom: 15px;
   padding: 20px;
   display: flex;
-  width: 400px;
+  width: 700px;
   background: #fafafa;
 }
 
@@ -107,10 +119,7 @@ h2 {
   font-size: 25px;
   margin-bottom: 10px;
   margin-top: 0px;
-  height: 50px;
-  line-height: 25px;
 }
-
 
 
 .video-author, .video-date, .video-font {
@@ -222,9 +231,6 @@ h2 {
   border-radius: 10px;
 }
 
-
-
-
 /* Footer */
 .footer {
   background: #fafafa;
@@ -240,4 +246,20 @@ h2 {
 .footer a {
   text-decoration: none;
   color: grey;
+}
+
+@media screen (max-width: 1024px) {
+
+}
+
+@media screen (max-width 768px) {
+
+}
+
+@media screen (max-width 480px) {
+
+}
+
+@media screen (max-width 320px) {
+
 }
