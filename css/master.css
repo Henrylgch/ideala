@@ -190,7 +190,7 @@ h2 {
 }
 
 .contact-form {
-  display: flex;
+  display: block;
   margin: 0px 20px;
 }
 
@@ -377,6 +377,31 @@ h2 {
     max-width: 90%;
   }
 
+  .contact {
+    height: auto;
+    text-align: center;
+    display: block;
+  }
+
+  .contact-email {
+    width: 70%;
+    margin: auto;
+  }
+
+  .social {
+    display: block;
+    width: auto;
+    text-align: center;
+  }
+
+  .social-link {
+    margin: 5px;
+  }
+
+  .footer {
+    display: block;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 320px) {
