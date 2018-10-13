@@ -387,6 +387,12 @@ h2 {
     display: block;
   }
 
+  .contact-form h2 {
+    display: block;
+    text-align: center;
+    margin: 0.2em auto;
+  }
+
   .contact-email {
     width: 70%;
     max-width: 100px;
