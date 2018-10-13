@@ -164,6 +164,7 @@ h2 {
 
 .book-cover {
   width: 30%;
+  text-align: center;
 }
 
 .book-cover img {
@@ -172,10 +173,6 @@ h2 {
 
 .book-details {
   width: 70%;
-}
-
-.book-description {
-  text-align: left;
 }
 
 .book-title, .book-author {
