@@ -110,7 +110,7 @@ h2 {
   margin-bottom: 15px;
   padding: 20px;
   display: flex;
-  width: 700px;
+  max-width: 700px;
   background: #fafafa;
 }
 
@@ -155,18 +155,31 @@ h2 {
   border-radius: 10px;
   padding: 10px;
   display: flex;
-  flex-wrap: wrap;
-  max-width: 100%;
+  max-width: 48%;
+  margin: 1%;
   background: #fafafa;
   box-sizing: border-box;
 }
 
-.book-title, .book-author {
-  margin: 0px;
+
+.book-cover {
+  width: 30%;
+}
+
+.book-cover img {
+  width: 100%;
+}
+
+.book-details {
+  width: 70%;
 }
 
 .book-description {
   text-align: left;
+}
+
+.book-title, .book-author {
+  margin: 0px;
 }
 
 .contact {
@@ -301,29 +314,72 @@ h2 {
   .video {
     display: block;
     height: auto;
-    width: auto;
     max-width: 380px;
+    width: 60%;
   }
 
   .video-details {
     width: auto;
+    font-size: 16px;
+    margin: 0.5em 0;
+  }
+
+  .video-title {
+    font-size: 1.5em;
   }
 
   .video-embeb {
     width: auto;
     height: auto;
+    margin: 0;
   }
 
   .video-embeb iframe {
     max-height: 100%;
   }
 
+  .books-flex {
+    display: block;
+  }
+
+  .book {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+
+  .book-cover {
+    width: 100%;
+    padding: 0;
+    margin: auto;
+  }
+
+  .book-cover img {
+    width: 80%;
+  }
+
+  .book-details {
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
-  body {
-    border: 10px solid blue;
+
+  .video {
+    max-width: 90%;
   }
+  .video-details {
+    width: auto;
+    font-size: 12px;
+    margin: 0.5em 0;
+  }
+
+  .book {
+    max-width: 90%;
+  }
+
 }
 
 @media screen and (max-width: 320px) {
