@@ -377,6 +377,10 @@ h2 {
     max-width: 90%;
   }
 
+  .book-description {
+    font-size: 0.8em;
+  }
+
   .contact {
     height: auto;
     text-align: center;
@@ -385,6 +389,7 @@ h2 {
 
   .contact-email {
     width: 70%;
+    max-width: 100px;
     margin: auto;
   }
 
@@ -396,6 +401,8 @@ h2 {
 
   .social-link {
     margin: 5px;
+    width: 15%;
+    background-repeat: no-repeat;
   }
 
   .footer {
