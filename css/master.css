@@ -76,22 +76,26 @@ h2 {
 .header a:hover {
   color: #16A085;
 }
-/*
-.containter-hero {
-  max-width: 1200px;
-}
 
 .hero {
-  height: 420px;
-  background: url('../images/fondo.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: top;
-  display: flex;
+  width: 100%;
+  display: block;
 }
-*/
+
+.hero img {
+  position: relative;
+  width: 100%;
+}
+
 .hero h1 {
+  font-size: 2.4em;
   margin: 30px;
+  position: absolute;
+  z-index: 1;
+}
+
+.display-show-small {
+  display: none;
 }
 
 .hero-strong {
@@ -105,6 +109,7 @@ h2 {
 }
 
 .video {
+  width: 70%;
   border: 1px solid grey;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -125,19 +130,25 @@ h2 {
   margin-top: 0px;
 }
 
-
 .video-author, .video-date, .video-font {
   margin: 0px;
 }
 
 .video-embeb {
-  margin-top: 15px;
   width: 50%;
-  vertical-align: bottom;
+  height: 0;
+  padding-top: 28.1%;
+  position: relative;
 }
 
-.video-embeb iframe {
+.youtube-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
 }
 
 .books {
@@ -271,7 +282,9 @@ h2 {
 }
 
 @media screen and (max-width: 1200px) {
-
+  .hero h1 {
+    font-size: 1.9em;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -297,9 +310,12 @@ h2 {
     height: 50px;
     text-align: center;
   }
-
   .header a {
     justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 1.5em;
   }
 
   .container-title{
@@ -326,13 +342,10 @@ h2 {
   }
 
   .video-embeb {
-    width: auto;
-    height: auto;
-    margin: 0;
-  }
-
-  .video-embeb iframe {
-    max-height: 100%;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    position: relative;
   }
 
   .books-flex {
@@ -353,7 +366,7 @@ h2 {
   }
 
   .book-cover img {
-    width: 80%;
+    width: 50%;
   }
 
   .book-details {
@@ -363,9 +376,33 @@ h2 {
 }
 
 @media screen and (max-width: 480px) {
+  #logo_princ {
+    max-width: 130px;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .hero-title {
+    display: none;
+  }
+
+  .hero-title.display-show-small {
+    display: block;
+    position: relative;
+    margin: 0.2em;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .hero img {
+    position: relative;
+  }
 
   .video {
     max-width: 90%;
+    position: relative;
   }
   .video-details {
     width: auto;
