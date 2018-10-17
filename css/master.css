@@ -77,6 +77,15 @@ h2 {
   color: #16A085;
 }
 
+.burger-menu {
+  font-size: 20px;
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  color: #37474f;
+  display: none;
+}
+
 .hero {
   width: 100%;
   display: block;
@@ -100,6 +109,10 @@ h2 {
 
 .hero-strong {
   color: #16A085;
+}
+
+.container-title {
+  padding: 0 15px;
 }
 
 .videos {
@@ -237,30 +250,11 @@ h2 {
 }
 
 .social-link {
-  width: 50px;
-  height: 50px;
+  font-size: 50px;
+  color: white;
   flex-shrink: 0;
   display: inline-block;
-  background-size: 100%;
   margin: 20px;
-}
-
-.social-twitter {
-  background-image: url(../images/Twitter_icon.png);
-}
-
-.social-github {
-  background-image: url(../images/Github_icon.png);
-}
-
-.social-instagram {
-  background-image: url(../images/Instagram_icon.png);
-}
-
-.social-facebook {
-  background-image: url(../images/Facebook_icon.png);
-  border: 2px solid white;
-  border-radius: 10px;
 }
 
 /* Footer */
@@ -318,10 +312,8 @@ h2 {
     font-size: 1.5em;
   }
 
-  .container-title{
+  .burger-menu {
     display: block;
-    margin: auto;
-    text-align: center;
   }
 
   .video {
