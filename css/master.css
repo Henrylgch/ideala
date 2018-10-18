@@ -320,7 +320,7 @@ h2 {
 
   .menu ul {
     position: fixed;
-    background-color: rgb(22, 160, 133, 0.9);
+    background-color: rgb(22, 160, 133);
     z-index: 3;
     top: 0;
     left: -100vw;
