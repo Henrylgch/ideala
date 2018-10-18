@@ -52,19 +52,19 @@ h2 {
   margin-left: 0px;
 }
 
-.header ul {
+.menu ul {
   display: flex;
   list-style-type: none;
-  height: inherit;
+  height: 100%;
   margin: 0px 20px;
   flex-wrap: wrap;
 }
 
-.header ul li {
+.menu ul li {
   height: inherit;
 }
 
-.header a{
+.menu ul li a{
   text-decoration: none;
   height: inherit;
   display: flex;
@@ -73,15 +73,15 @@ h2 {
   color: #0f0f0f;
 }
 
-.header a:hover {
+.menu ul li a:hover {
   color: #16A085;
 }
 
 .burger-menu {
   font-size: 20px;
   position: fixed;
-  top: 25px;
-  left: 25px;
+  top: 20px;
+  left: 20px;
   color: #37474f;
   display: none;
 }
@@ -298,6 +298,7 @@ h2 {
 
   .header ul {
     display: initial;
+    margin: 0;
   }
 
   .header ol li {
@@ -314,6 +315,36 @@ h2 {
 
   .burger-menu {
     display: block;
+    z-index: 4;
+  }
+
+  .menu ul {
+    position: fixed;
+    background: rgb(22, 160, 133, 0.9);
+    z-index: 3;
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    transition: 0.3s;
+  }
+
+  .menu.menu-active ul{
+    left: 0;
+  }
+
+
+  .menu ul li {
+    height: auto;
+  }
+
+  .menu ul li a{
+    color: white;
+    font-size: 1.5em;
+    height: auto;
+    font-weight: bold;
+    margin: 2em auto;
   }
 
   .video {
